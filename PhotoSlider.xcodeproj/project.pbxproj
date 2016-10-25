@@ -213,12 +213,12 @@
 				DCA3F67E1CF3697600B261A0 /* Kingfisher.framework */,
 				DC0E42191C3184D80090AC94 /* Kingfisher-Demo.app */,
 				DC0E421F1C3184D80090AC94 /* Kingfisher-tvOS-Demo.app */,
-				DCA3F6801CF3697600B261A0 /* Kingfisher-OSX-Demo.app */,
+				DCA3F6801CF3697600B261A0 /* Kingfisher-macOS-Demo.app */,
 				DCA3F6821CF3697600B261A0 /* Kingfisher-watchOS-Demo.app */,
 				DCA3F6841CF3697600B261A0 /* Kingfisher-watchOS-Demo Extension.appex */,
 				DC0E421D1C3184D80090AC94 /* KingfisherTests.xctest */,
 				DCA3F6861CF3697600B261A0 /* KingfisherTests-tvOS.xctest */,
-				DCA3F6881CF3697600B261A0 /* KingfisherTests-OSX.xctest */,
+				DCA3F6881CF3697600B261A0 /* KingfisherTests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,7 +344,7 @@
 			remoteRef = DCA3F67D1CF3697600B261A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DCA3F6801CF3697600B261A0 /* Kingfisher-OSX-Demo.app */ = {
+		DCA3F6801CF3697600B261A0 /* Kingfisher-macOS-Demo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "Kingfisher-macOS-Demo.app";
@@ -372,7 +372,7 @@
 			remoteRef = DCA3F6851CF3697600B261A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DCA3F6881CF3697600B261A0 /* KingfisherTests-OSX.xctest */ = {
+		DCA3F6881CF3697600B261A0 /* KingfisherTests-macOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "KingfisherTests-macOS.xctest";
@@ -449,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -489,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

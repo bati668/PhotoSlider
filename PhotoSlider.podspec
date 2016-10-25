@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
   s.name             = "PhotoSlider"
   s.version          = "0.14.1"
   s.summary          = "PhotoSlider can a simple photo slider and delete slider with swiping."
-  s.homepage         = "https://github.com/nakajijapan/PhotoSlider"
+  s.homepage         = "https://github.com/bati668/PhotoSlider"
   s.license          = 'MIT'
   s.author           = { "nakajijapan" => "pp.kupepo.gattyanmo@gmail.com" }
-  s.source           = { :git => "https://github.com/nakajijapan/PhotoSlider.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bati668/PhotoSlider.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/nakajijapan'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Sources/Classes/**/*'

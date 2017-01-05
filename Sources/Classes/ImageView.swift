@@ -124,7 +124,7 @@ class ImageView: UIView, UIScrollViewDelegate {
     
     func layoutProgressView() {
         progressView.translatesAutoresizingMaskIntoConstraints = false
-        let views = ["progressView": progressView, "superView": self]
+        let views = ["progressView": progressView, "superView": self] as [String : Any]
         let constraintVertical = NSLayoutConstraint.constraints(
             withVisualFormat: "V:[superView]-(<=1)-[progressView(40)]",
             options: NSLayoutFormatOptions.alignAllCenterX,
